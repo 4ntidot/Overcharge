@@ -4,8 +4,8 @@
 	font-family: Avenir, sans-serif;
 }
 
-@import "variables";
-@import "toolbar";
+@import url("variables.css");
+@import url("toolbar");
 
 #webview {
 	background-color: transparent;
