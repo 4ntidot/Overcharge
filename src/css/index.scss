@@ -6,3 +6,11 @@
 
 @import "variables";
 @import "toolbar";
+
+#webview {
+	background-color: transparent;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	top: calc(100% - 96px);
+}
