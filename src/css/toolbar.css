@@ -15,5 +15,5 @@
 .header-icon {
 	height: 32px;
 	width: 32px;
-	vertical-align: 50%;
+	vertical-align: baseline;
 }
