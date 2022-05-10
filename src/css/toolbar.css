@@ -1,2 +1,6 @@
 #header {
+	background-color: var(--primary);
+	color: white;
+	height: 64px;
+	padding: 16px;
 }
