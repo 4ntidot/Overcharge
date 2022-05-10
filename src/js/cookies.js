@@ -14,7 +14,7 @@ function loadHistory() {
 	var i = 0;
 	for (i==0, i < history.length, i++) {
 		const section = historyContainer.innerHTML;
-		const addition `
+		const addition = `
 		<li class="shortcut"><a href="${history[i].url}" target="webview">
 			<span class="shortcut-title">${history[i].title}</span><br>
 			<span class="shortcut-url">${history[i].url}</span>
