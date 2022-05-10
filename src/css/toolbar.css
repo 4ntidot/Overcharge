@@ -1,6 +1,13 @@
 #header {
 	background-color: var(--primary);
 	color: white;
-	height: 64px;
-	padding: 16px;
+	height: 32px;
+	padding: 8px;
+}
+#header > input[type='text'] {
+	color: #013;
+	background-color: #fff8;
+	height: 100%;
+	border: none;
+	border-radius: 16px;
 }
