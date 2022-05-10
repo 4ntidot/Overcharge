@@ -4,7 +4,7 @@
 	height: 32px;
 	padding: 16px;
 }
-#header input[type='text'] {
+#header > div > input[type='text'] {
 	color: #013;
 	background-color: #fff8;
 	height: 100%;
