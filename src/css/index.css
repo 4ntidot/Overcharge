@@ -8,7 +8,8 @@
 @import url("toolbar");
 
 #webview {
-	background-color: transparent;
+	background-color: black;
+	border: none;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
