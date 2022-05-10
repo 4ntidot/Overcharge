@@ -2,14 +2,16 @@
 	background-color: var(--primary);
 	color: white;
 	height: 32px;
-	padding: 16px
+	padding: 8px;
 }
 #header > input[type='text'] {
 	color: #013;
 	background-color: #fff8;
 	height: 32px;
+	width: 128px;
 	border: none;
 	border-radius: 16px;
+	transform: translate(0, 16px);
 }
 
 .header-icon {
