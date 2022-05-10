@@ -12,6 +12,24 @@
 			<input type="text" id="searchinput">
 			<img id="searchbutton" class="header-icon" src="assets/icons/search.svg">
 		</header>
-		<iframe id="webview"></iframe>
+		<iframe class="window" name="webview" id="webview"></iframe>
+		<div class="window" id="history" hidden>
+		</div>
+		<div class="window" id="settings" hidden>
+			<h1>Settings</h1><br>
+			<strong>Browsing</strong><br><br>
+			<div class="container">
+				<span class="label">Preferred search engine</span>
+				<select id="browserSelect">
+					<option value="https://google.com/search?q=">Google</option>
+					<option value="https://bing.com/search?q=">Bing</option>
+					<option value="https://ecosia.org/search?q=">Ecosia</option>
+				</select>
+			</div>
+			<div class="container">
+				<span class="label">Private browsing</span>
+				<button class="action" id="privateButton" onClick="togglePrivateMode()">Toggle</button>
+			</div>
+		</div>
 	</body>
 </html>
