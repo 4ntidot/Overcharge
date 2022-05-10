@@ -2,7 +2,7 @@
 	background-color: var(--primary);
 	color: white;
 	height: 32px;
-	padding: 8px;
+	padding: 16px;
 }
 #header > input[type='text'] {
 	color: #013;
@@ -10,6 +10,7 @@
 	height: 100%;
 	border: none;
 	border-radius: 16px;
+	vertical-align: baseline;
 }
 
 .header-icon {
