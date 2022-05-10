@@ -12,5 +12,5 @@
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	top: calc(100% - 96px);
+	top: 96px;
 }
