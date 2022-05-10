@@ -5,7 +5,7 @@
 }
 
 @import url("variables.css");
-@import url("toolbar");
+@import url("toolbar.css");
 
 #webview {
 	background-color: black;
