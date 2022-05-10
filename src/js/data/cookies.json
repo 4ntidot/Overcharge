@@ -1,0 +1,12 @@
+{
+	"template":{
+		"themeColorOnNavBar":true,
+		"history":[]
+	},
+	"list":[
+		{
+			"name":"Browse history",
+			"desc":"It is a cookie that stores your history. Overcharge adds a new item to it each time you refresh a page or open a new tab"
+		}
+	]
+}
