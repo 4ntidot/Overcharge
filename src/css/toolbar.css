@@ -1,20 +1,20 @@
 #header {
 	background-color: var(--primary);
 	color: white;
-	height: 32px;
-	padding: 8px;
+	height: 160px;
+	padding: 40px;
 }
 #header > input[type='text'] {
 	color: #013;
 	background-color: #fff8;
-	height: 32px;
-	width: 128px;
+	height: 160px;
+	width: 400px;
 	border: none;
-	border-radius: 16px;
+	border-radius: 80px;
 	transform: translate(0, -13px);
 }
 
 .header-icon {
-	height: 32px;
-	width: 32px;
+	height: 160px;
+	width: 160px;
 }
